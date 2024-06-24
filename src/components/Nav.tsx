@@ -8,7 +8,7 @@ export default function Nav() {
   return (
     <nav className="">
       <div className="flex justify-between mx-2">
-        <img src="public/공동체사역.jpeg" alt="logo" width="50px" />
+        <img src="/공동체사역.jpeg" alt="logo" width="50px" />
         {matches && (
           <div className="flex gap-6">
             <a href="/">Home Page</a>
