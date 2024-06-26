@@ -7,10 +7,10 @@ export default function Nav() {
 
   return (
     <nav className="">
-      <div className="flex justify-between mx-2">
-        <img src="/공동체사역.jpeg" alt="logo" width="50px" />
+      <div className="flex justify-between mx-2 p-4">
+        <img src="/ayc-logo.jpeg" alt="logo" width="100px" />
         {matches && (
-          <div className="flex gap-6">
+          <div className="flex gap-6 font-bold text-lg">
             <a href="/">Home Page</a>
             <a href="/about-us">About Us</a>
             <a href="/service">Service</a>

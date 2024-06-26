@@ -1,9 +1,11 @@
 export default function InPageNav({ items }: any) {
   return (
     <nav>
-      <ul className="flex gap-4 w-2/3 items-center justify-center border-b-4 border-black ">
+      <ul className="flex w-8/12 items-center justify-between border-b-2 border-black m-auto ">
         {items.map((item: string) => (
-          <li className="font-semibold text-3xl">{item}</li>
+          <li className="font-extralight text-2xl text-gray-400">
+            <a href={`/about-us/${item}`}>{item}</a>
+          </li>
         ))}
       </ul>
     </nav>

@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import InPageNav from "../components/UI/InPageNav"
+const pageTitle = "service"
+const items = ["주일예배", "수요훈련", "금요기도회", "새벽기도회", "원단메세지", "훈련 메세지", "예원찬양", "언약기도"]
+---
+
+<Layout title={pageTitle}>
+  <InPageNav items={items}/>
+</Layout>
