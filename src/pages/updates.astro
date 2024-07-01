@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import InPageNav from "../components/UI/InPageNav"
+const pageTitle = "about-us"
+const items = ["예원포커스", "예원뉴스", "기관소개", "주보", "신앙간증", "공지사항", "자료실", "예원일정"]
+
+---
+<Layout title={pageTitle}>
+  <InPageNav items={items}/>
+</Layout>

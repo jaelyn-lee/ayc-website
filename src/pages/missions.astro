@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import InPageNav from "../components/UI/InPageNav"
+const pageTitle = "about-us"
+const items = ["교회소개", "새가족안내", "예배안내", "섬기는분들", "교육기관", "교회시설", "오시는 길"]
+
+---
+<Layout title={pageTitle}>
+  <InPageNav items={items}/>
+</Layout>
